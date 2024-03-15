@@ -1,6 +1,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>VECOMP 2024</title>
+<title>AICOMP track</title>
 <link rel="stylesheet" href="VECOMP24_files/cssreset.css" type="text/css">
 <link rel="stylesheet" href="VECOMP24_files/cssfonts.css" type="text/css">
 <link rel="stylesheet" href="VECOMP24_files/cssbase.css" type="text/css">
@@ -20,20 +20,20 @@ adjSpeed = .4;
     <div class="yui3-u-1-3">
       <div class="content">
        <div class="logo">
-          <h1><img src="VECOMP24_files/vecomp_logo.png" alt="VECOMP" width="200" height="56"></h1>
+          <h1><img src="VECOMP24_files/vecom_logo.png" alt="VECOMP" width="200" height="56"></h1>
           </div>
 	<div class="navi">
           <ul>
-	    <li><a href="#Introduction">Introduction</a></li>
-<!--	    <li><a href="#Topics">Topics</a></li>-->
+	    <li><a href="#Aims_and_Scope">Aims and scope</a></li>
+	    <li><a href="#Topics">Topics</a></li>
 	    <li><a href="#Important">Important Dates</a></li>
 <!--            <li><a href="#Invited">Invited Speakers</a></li> -->
-<!--            <li><a href="#Submissions">Submissions</a></li> -->
+            <li><a href="#Submissions">Submissions</a></li>
 <!-- 	    <li><a href="#Post">Post Proceedings</a></li> -->
 	    <li><a href="#Program">Program</a></li>
             <li><a href="#Workshop">Workshop Chairs</a></li>
-<!--            <li><a href="#PCmember">Program Committee Members</a></li>-->
-<!--	    <li><a href="#Links">Related Links</a></li>-->
+            <li><a href="#PCmember">Program Committee Members</a></li>
+	    <li><a href="#Links">Related Links</a></li>
             </ul>
           </div>
 	        <div class="blockTwitter"> 
@@ -86,7 +86,7 @@ new TWTR.Widget({
 with 27th European Conference on Artificial Intelligence (ECAI2024)</font><br></a>
 		</h1>
 		<br>
-        	<p> One day among 19-20 October 2024</p>
+        	<p> one day among 19-20 October 2024</p>
 
 <div class="block">
 
@@ -112,8 +112,8 @@ You can download the proceedings from <a href="https://research.nii.ac.jp/~ksato
 </div>
 -->
 
-<div class="block" id="Introductino">
-<h2>Introduction</h2>
+<div class="block" id="Aims_and_Scope">
+<h2>Aims and Scope</h2>
 <p>
 With the development and spread of AI techniques, ensuring the adherence of AI's behavior to legal and ethical principles has become a major subject. General fear of the unintended effects of AI systems, by its actions and its use of personal data, has led to a strong demand for trustworthy AI. This is a central concern that has become prominent both in public opinion and policy maker's agenda. The EU High-Level Expert Group on AI, convened by the European Commission in 2018, published a report on "Ethics Guidelines for Trustworthy AI" says that AI systems should be:<br>
 * lawful, complying with all applicable laws and regulations<br>
@@ -122,12 +122,55 @@ With the development and spread of AI techniques, ensuring the adherence of AI's
 To achieve "TrustWorthy AI", there is a need to develop software systems that reason about human values and legal/ethical norms, implement these values through legal/ethical norms, and ensure the alignment of behaviour with those values and legal/ethical norms.<br>
 <br>
 This workshop focuses on human values and compliance mechanism of legal/ethical norms. We set up two tracks in the workshop:<br>
-* <a href="https://vale2023.iiia.csic.es/">Value Engineering and Value-Aware AI (VALE track)</a><br>
-* <a href="AICOM/index.html"> AI Compliance Mechanisms for Legal/Ethical Norms (AICOM track)</a><br>
-<br>
-Authors should access to a track page to which they would like to submit their papers and follow instructions.
+* Value Engineering and Value-Aware AI (VALE track)<br>
+* AI Compliance Mechanisms for Legal/Ethical Norms (AICOMP track)<br>
+</p>
+<p>
+With the development and spread of AI techniques, ensuring the adherence of AI's behavior to legal and ethical principles has become a major subject. General fear of the unintended effects of AI systems, by its actions and its use of personal data, has led to a strong demand for trustworthy AI. This is a central concern that has become prominent both in public opinion and policy maker's agenda. The EU High-Level Expert Group on AI, convened by the European Commission in 2018, published a report on “Ethics Guidelines for Trustworthy AI” says that AI systems should be:<br><br>
+* lawful, complying with all applicable laws and regulations<br>
+* ethical, ensuring adherence to ethical principles and values<br><br>
+The purpose of this workshop is to bring researchers together to present approaches to tackling legal/ethical AI compliance problems including the relationship between compliance and standards, legislation and regulation and to discuss selected challenges arising from AI compliance.
+We also solicit use cases related with AI compliance problems to create a basis to investigate common problems for future collaboration.
 </p>
 </div>
+
+<div class="block" id="Topics">
+	<h2>Topics</h2>
+          <p>Relevant topics include, but are not limited to, the
+	    following:</p>
+<ul>
+<li>Theory of Legal Norm Compliance</li>
+<li>Theory of Ethical Norm Compliance</li>
+<li>Theory of Unified Treatment of Legal/Ethical Norm Compliance</li>
+<li>Ontology to Represent Norms</li>
+<li>Detecting Compliance Violation</li>
+<li>Agent Behaviour Revision upon Compliance Violation</li>
+<li>Knowledge Representation and Reasoning with Multiple Legal and Ethical Norms</li>
+<li>Standards and Tools for Norm Compliance</li>
+<li>Real Applications of Compliance Check</li>
+</ul>
+<!--
+	  <ul>
+            <li>Model of legal reasoning</li>
+            <li>Argumentation / Negotiation / Argumentation agent</li>
+            <li>Legal term ontology</li>
+            <li>Formal legal knowledge-base / Intelligent management of
+legal knowledge-base</li>
+            <li>Translation of legal documents</li>
+	     <li>Information retrieval of legal texts</li>
+            <li>Computer-aided law education</li>
+            <li>Use of Informatics and AI in law</li>
+            <li>Legal issues on applications of robtics and AI to
+society</li>
+            <li>Social implications of use of informatics and AI in law</li>
+	    <li>Natural language processing for legal knowledge </li>
+            <li>Verification and validation of legal knowledge systems </li>
+	    <li>Normative Systems / Deontic Logic</li>
+            <li>Any theories and technologies which is not directly
+related with juris-informatics but has a potential to contribute to this
+	      domain  </li>
+          </ul>
+--></div>
 <div class="block" id="Important">
 <h2>Important Dates</h2>
 <p>
@@ -149,6 +192,43 @@ page</a> of JSAI International Symposia on AI 2018.</p>
 <div class="block" id="Invited">
 <h2>Invited Speakers</h2>
 TBA (Randy Goebel?)
+</div>
+-->
+<div class="block" id="Submissions">
+	<h2>Submissions</h2>
+<p>We welcome and encourage the submission of high quality, original papers, which are not simultaneously submitted for publication elsewhere.<br>
+We have two categories for submissions; full paper (10-14 pages), short paper (5-9 pages).
+</p>
+
+<p> Papers must be written in English, be prepared for single-blind review using the ECAI LaTeX template, and not exceed 7 pages (plus at most 1 extra page for references).
+https://ecai2024.eu/download/ecai-template.zip	  
+
+	  
+Springer Verlag LNCS style in a pdf form, which can be obtained from
+<a href="http://www.springeronline.com/" target="_blank">http://www.springeronline.com</a>
+and not exceed 14 pages (for full paper) and 9 pages (for short paper) including figures, references, etc.
+Please submit the paper in a pdf form. If you use a word file, please follow the instruction of the format, and then convert it into a pdf form and submit it at the paper
+submission page.<br>
+You should submit your paper through TBA.
+<!-- Easychair <a href="https://easychair.org/conferences/?conf=waicom2024">https://easychair.org/conferences/?conf=waicom2024</a>
+-->
+</p>
+<p>
+Accepted papers will be published in the online proceedings at the homepage of VECOMP 2024.
+</p>
+<p>
+If a paper is accepted, at least one author of the paper must register
+the workshop.
+<!-- through <a href="https://jurix2024.rechtsinformatik.saarland/registration/" target="_blank">an online registration</a> -->
+before submitting a camera-read copy and present the paper at the workshop.
+Without fulfilling this condition, the paper will not be in the proceedings.
+</p>
+<!-- 
+<div class="block" id="Post">
+<h2>Post Proceedings</h2>
+<font color="red">We will publish selected papers for a special issue at <a href="https://www.springer.com/journal/12626"> "The Review of Socionetwork Strategies", Springer Verlag.</a></font>
+The authors of papers presented at the workshop can submit their extended paper with at least 30 % increase of the content to avoid self-plagiarism. We will select papers with another rounds of review for a special issue.
+<br>
 </div>
 -->
 <div class"block"="" id="Program">
@@ -186,10 +266,6 @@ TBA
 <div class="block" id="Workshop">
 <h2>Workshop Chairs</h2>
 <p>
-VALE track<br>
-Nardine Osman, Artificial Intelligence Research Institute (IIIA-CSIC), Spain<br>
-Luc Steels, Barcelona Supercomputing Center, Spain<br>
-AICOM track<br>  
 Gauvain Bourgne, Sorbonne University, France<br>
 Jean-Gabriel Ganascia, University of Sorbonne, France<br>
 Adrian Paschke , Freie Universität Berlin and Fraunhofer FOKUS, Germany<br>
@@ -197,8 +273,43 @@ Ken Satoh National, Institute of Informatics, Japan<br>
 </p>
 </div>
 
+<div class="block" id="PCmember">
+<h2>Program Committee Members (To be confirmed) </h2>
+<p>
+Matthias Armgardt, University of Hamburg, Germany <br>
+Christoph Benzmüller, University of Bamberg, Germany<br>
+Gauvain Bourgne, Sorbonne University, France <br>
+Giuseppe Contissa、University of Bologna, Italy <br>
+Marina De Vos, University of Bath, UK <br>
+Hisashi Hayashi, AIIT, Japan <br>
+Hiroshi Hosobe, Hosei University, Japan <br>
+Jean-Gabriel Ganascia, University of Sorbonne, France <br>
+Randy Goebel, University of Alberta, Canada <br>
+Guido Governatori, Brisbane, Australia <br>
+Sabrina Kirrane, University of Economics and Business, Austria <br>
+Bertram Lomfeld, Freie Universität Berlin, Germany<br>
+Julian Padget, University of Bath, UK <br>
+<!-- Monica Palmirani, University of Bologna, Italy (to be confirmed) <br> -->
+Adrian Paschke, Freie Universität Berlin and Fraunhofer FOKUS, Germany<br>
+David Restrepo Amariles, HEC Paris, France <br>
+Livio Robaldo, University of Swansea, UK <br>
+Pablo Rauzy, University Paris 8, France<br>
+Giovanni Sartor, University of Bologna, Italy <br>
+Ken Satoh National Institute of Informatics, Japan <br>
+Ralph Schäfermeier, Fraunhofer FOKUS, Germany <br>
+Alexander Steen, University of Greifswald, Germany (to be confirmed) <br>
+</p>
+</div>
+
+<div class="block" id="Links">
+	    <h2>Related Links</h2>
+	      <ul>
+		    <li><a href="https://research.nii.ac.jp/RECOMP/" target="_blank"> Trilateral Project "Research on Realtime Compliance Mechanism for AI (RECOMP)" </a></li>
+		</ul>
+</div>
+
 <div>
-	  For further information, please contact Nardine Osman "nardine[at]iiia.csic.es" (for VALE track) or Ken Satoh "ksatoh[at]nii.ac.jp" (for AICOM track)<br>
+	  For further information, please contact Ken Satoh "ksatoh[at]nii.ac.jp"<br>
 
 	    
          </p><p> <a href="https://jurisinformaticscenter.github.io/VECOMP2024/">VECOMP 2024 home page</a>
